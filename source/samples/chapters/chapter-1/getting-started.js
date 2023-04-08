@@ -122,9 +122,9 @@ function animate() {
   torusKnotMesh.rotation.z -= props.torusSpeed;
 
   // uncomment this to have the cube jump around
-  //   step += 0.04;
-  //   cube.position.x = 4*(Math.cos(step));
-  //   cube.position.y = 4*Math.abs(Math.sin(step));
+  step += 0.04;
+  cube.position.x = 4*(Math.cos(step));
+  cube.position.y = 4*Math.abs(Math.sin(step));
 
   controller.update();
 }
